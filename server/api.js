@@ -59,7 +59,6 @@ app.post('/register-user' ,(req, res)=>{
     });
 });
 
-
 app.post('/add-appointment' ,(req, res)=>{
     var appointment = {
         AppointmentId: parseInt(req.body.AppointmentId),
