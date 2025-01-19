@@ -120,7 +120,6 @@ $(function(){
              })
     });
 
-
     $(document).on("click", "#btnSignout", ()=>{
 
         $.removeCookie('userid');
